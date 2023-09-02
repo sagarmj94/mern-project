@@ -7,5 +7,5 @@ fs.writeFile("user-data.txt", "Name: " + userName, (err) => {
   if (err) {
     console.log(err);
   }
-  console.log("WROTE FILE");
+  //   console.log("WROTE FILE");
 });
